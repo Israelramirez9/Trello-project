@@ -1,8 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../stylesheets/Board.css';
 import ListOfTasks from "./listOfTasks.js";
 function Board() {
-    const [tasks, setTask] = useState([]);
+
+    const getTasks=()=>{
+        let data=localStorage.getItem("tasks");
+        if(data){
+            return JSON.parse(data);
+        }else{
+            return [];
+        }        
+    }
+    const [tasks, setTask] = useState(getTasks());
+
+    useEffect(()=>{
+        localStorage.setItem("tasks",JSON.stringify(tasks));
+    },[tasks])
 
     const changeColumnTaskToleft=(id)=>{
         const currentTasks=tasks.map((task)=>{
