@@ -1,2 +1,2 @@
-Link(https://github.com/Israelramirez9/Trello-project.git)
+Link(https://israelramirez9.github.io/Trello-project/)
 
