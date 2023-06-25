@@ -1,0 +1,44 @@
+.tasks-container {
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid white;
+    margin-top: 1rem;
+}
+
+.text-task-container {
+    
+    font-weight: bold;
+    width: 60%;
+}
+
+.completed {
+    background-color: rgb(177, 177, 253, 0.7);
+    text-decoration: line-through;
+    border-radius: 1rem;
+}
+
+.task-icon-container {
+    width: 10%;
+    cursor: pointer;
+}
+
+.done-task-icon:hover {
+    color: green;
+}
+
+.delete-task-icon:hover {
+    color: red;
+}
+.row{
+    width: 10%;
+    cursor: pointer;
+}
+.row:hover{
+    color:#efb810;
+}
