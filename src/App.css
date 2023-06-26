@@ -3,6 +3,7 @@ main{
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   background-color: #1b1b32;
   color:white;
 }
