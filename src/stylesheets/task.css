@@ -4,10 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1b1b32;
-    color: white;
+    background-color: rgb(128, 128, 128,0.5);
+    color: black;
     border-radius: 7px;
-    border: 1px solid white;
+    border: 1px solid orange;
     margin-top: 1rem;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .completed {
-    background-color: rgb(177, 177, 253, 0.7);
+    background-color: rgb(250, 236, 207);
     text-decoration: line-through;
     border-radius: 1rem;
 }
@@ -40,5 +40,5 @@
     cursor: pointer;
 }
 .row:hover{
-    color:#efb810;
+    color:#0400ff;
 }

@@ -4,6 +4,7 @@ main{
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: #1b1b32;
-  color:white;
+  background-color: #f7f6f5;
+  color:black;
+  overflow: hidden;
 }

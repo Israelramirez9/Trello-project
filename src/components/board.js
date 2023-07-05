@@ -77,8 +77,9 @@ function Board() {
             <section>
                 {
                     COLUMNS.map((_, index) =>
-                        <div className="column"><h2>Column {index + 1}</h2>
+                        <div key={index} className="column"><h2>Column {index + 1}</h2>
                             <ListOfTasks columnID={index + 1}
+                                
                                 changeColumnTaskToRight={changeColumnTaskToRight}
                                 changeColumnTaskToleft={changeColumnTaskToleft}
                                 deleteTask={deleteTask}
