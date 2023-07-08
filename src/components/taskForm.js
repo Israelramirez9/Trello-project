@@ -22,6 +22,8 @@ function TaskForm({onSubmit, columnID}){
         console.log(newTask);
         onSubmit(newTask)
         e.target.reset();
+
+        //modified the state
         setInput("");
         
     }
